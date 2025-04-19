@@ -2,8 +2,8 @@
   "appName": "TestApp",
   "logging": {
     "level": "INFO",
-    "discordErrorWebhookUrl": "https://discord.com/api/webhooks/111111111111111111/FAKE_TOKEN_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-",
-    "discordNotifyWebhookUrl": "https://discordapp.com/api/webhooks/222222222222222222/FAKE_TOKEN_different_but_valid_pattern_-ZYXWVUTSRQPONMLKJIHGFEDCBA",
+    "discordErrorWebhookUrl": "https://discord.com/api/webhooks/1363163607772168475/UHk8KIFrkNHPZ1ofPneXHrWbYOMUkBqSr1ln9v3LINIDzoi6I1C8zJfO2BgX4vsXr8hS",
+    "discordNotifyWebhookUrl": "https://discord.com/api/webhooks/1363163749049040916/0QJnPVhs3WqAEg5pQaA2eeYfTCbDjnV9tsCykIdiEk-8qPnJUUSBOEBs3ybEW2WkcoDo",
     "otherSetting": "some_value"
   },
   "features": [
@@ -12,10 +12,10 @@
   ],
   "nestedHooks": {
       "hookList": [
-          "https://discord.com/api/webhooks/333333333333333333/ANOTHER_FAKE_TOKEN_123",
+          "https://discord.com/api/webhooks/1363163825968254986/1RtPXHbYtYT_e6NbcFR0I6OV4SU_IJZBno9f132PCNYSFG5owYL6BrQswQOuhZw2T2FN",
           "not_a_webhook_url",
-          "https://discord.com/api/webhooks/444444444444444444/YET_ANOTHER_FAKE_one"
+          "https://discord.com/api/webhooks/1363163866388893837/RiUVQswJpezuhULpgeDDiZgLOjNU5IW0gj8t4ehQcNykTQHRvsVXpnqIHCyAuV2wuyPB"
       ]
   },
-  "plain_url_at_root": "https://discord.com/api/webhooks/555555555555555555/ROOT_FAKE_TOKEN_test"
+  "plain_url_at_root": "https://discord.com/api/webhooks/1363163924245254446/9eyYYzU7d_44LKBt1YFwH1DkfoCJEqU1idl61Wlu9RuYXfl6c-n0W2op9nZaif1-UQGX"
 }
