@@ -1,0 +1,21 @@
+{
+  "appName": "TestApp",
+  "logging": {
+    "level": "INFO",
+    "discordErrorWebhookUrl": "https://discord.com/api/webhooks/111111111111111111/FAKE_TOKEN_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-",
+    "discordNotifyWebhookUrl": "https://discordapp.com/api/webhooks/222222222222222222/FAKE_TOKEN_different_but_valid_pattern_-ZYXWVUTSRQPONMLKJIHGFEDCBA",
+    "otherSetting": "some_value"
+  },
+  "features": [
+    "featureA",
+    "featureB"
+  ],
+  "nestedHooks": {
+      "hookList": [
+          "https://discord.com/api/webhooks/333333333333333333/ANOTHER_FAKE_TOKEN_123",
+          "not_a_webhook_url",
+          "https://discord.com/api/webhooks/444444444444444444/YET_ANOTHER_FAKE_one"
+      ]
+  },
+  "plain_url_at_root": "https://discord.com/api/webhooks/555555555555555555/ROOT_FAKE_TOKEN_test"
+}
